@@ -1,0 +1,21 @@
+   <div class="header">
+    <h1>💬 Discussion Forum</h1>
+  
+    <div class="auth-actions">
+      <ng-container *ngIf="!isLoggedIn; else loggedInBlock">
+        <button (click)="goToLogin()">Login</button>
+      </ng-container>
+  
+      <ng-template #loggedInBlock>
+        <div class="user-info">
+          <img *ngIf="currentUser?.profilePic" [src]="currentUser?.profilePic" alt="Profile" />
+          <span>{{ currentUser?.username }}</span>
+          <button (click)="logout()">Logout</button>
+        </div>
+      </ng-template>
+    </div>
+  </div>
+  
+
+
+   

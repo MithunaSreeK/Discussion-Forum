@@ -1,0 +1,44 @@
+.advertise-box {
+  display: flex;
+  align-items: flex-start;
+  background: #fffaf3;
+  border-left: 5px solid #d63384;
+  border-radius: 10px;
+  padding: 1.5rem;
+  margin: 1.5rem auto;
+  max-width: 850px;
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.04);
+}
+
+.advertise-box img {
+  width: 100px;
+  height: auto;
+  border-radius: 8px;
+  margin-right: 1.5rem;
+}
+
+.advertise-box .content {
+  flex: 1;
+}
+
+.advertise-box .content h2 {
+  color: #d63384;
+  font-size: 1.3rem;
+  margin-bottom: 1rem;
+}
+
+.advertise-box .content h3 {
+  font-size: 1.1rem;
+  margin-top: 1.2rem;
+  color: #222;
+}
+
+.advertise-box .content p {
+  color: #555;
+  font-size: 0.95rem;
+  margin: 0.6rem 0;
+}
+
+.advertise-box .content strong {
+  color: #333;
+}

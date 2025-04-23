@@ -1,0 +1,16 @@
+<div class="new-thread-page">
+  <div class="editor-card">
+    <h2>Create a New Thread</h2>
+    <form (ngSubmit)="postThread()">
+      <input [(ngModel)]="newThread.title" name="title" placeholder="Enter a compelling title..." required />
+      <textarea [(ngModel)]="newThread.content" name="content" placeholder="What's on your mind?" rows="10" required></textarea>
+
+      <input type="file" (change)="onImageSelected($event)" accept="image/*" />
+
+      <div class="editor-actions">
+        <button type="button" (click)="router.navigate(['/forum'])">← Back to Forum</button>
+        <button type="submit">Publish Thread</button>
+      </div>
+    </form>
+  </div>
+</div>

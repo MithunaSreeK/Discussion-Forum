@@ -1,0 +1,44 @@
+.careers-box {
+  display: flex;
+  align-items: flex-start;
+  background: #f3fdf8;
+  border-left: 5px solid #10b981;
+  border-radius: 10px;
+  padding: 1.5rem;
+  margin: 1.5rem auto;
+  max-width: 850px;
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.03);
+}
+
+.careers-box img {
+  width: 100px;
+  height: auto;
+  border-radius: 8px;
+  margin-right: 1.5rem;
+}
+
+.careers-box .content {
+  flex: 1;
+}
+
+.careers-box .content h2 {
+  color: #10b981;
+  font-size: 1.3rem;
+  margin-bottom: 1rem;
+}
+
+.careers-box .content h3 {
+  font-size: 1.1rem;
+  margin-top: 1.2rem;
+  color: #222;
+}
+
+.careers-box .content p {
+  color: #444;
+  font-size: 0.95rem;
+  margin: 0.6rem 0;
+}
+
+.careers-box .content strong {
+  color: #222;
+}

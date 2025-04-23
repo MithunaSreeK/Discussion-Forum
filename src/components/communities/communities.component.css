@@ -1,0 +1,32 @@
+.communities-container {
+  display: flex;
+  justify-content: center;
+  padding: 2rem 1rem;
+}
+
+.communities-box {
+  display: flex;
+  background: #f8f9fa;
+  border-left: 5px solid #6c757d;
+  border-radius: 10px;
+  padding: 1rem;
+  margin-bottom: 1.5rem;
+  max-width: 900px;
+}
+
+.communities-box img {
+  width: 120px;
+  border-radius: 8px;
+  margin-right: 1rem;
+}
+
+.communities-box .content h2 {
+  color: #6c757d;
+  margin-bottom: 0.5rem;
+}
+
+.communities-box .content p,
+.communities-box .content ul {
+  color: #444;
+  margin-bottom: 1rem;
+}

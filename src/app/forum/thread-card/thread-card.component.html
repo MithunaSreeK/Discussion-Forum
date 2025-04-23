@@ -1,0 +1,33 @@
+<div class="thread-card-container">
+  <div class="thread-card">
+    <div class="user-info">
+      <img class="profile-img" src="assets/images/profile.png" alt="User Image" />
+      <span>{{ thread.user?.username || 'Anonymous' }}</span>
+    </div>
+
+    <div class="thread">
+      <h4>{{ thread.title }}</h4>
+      <p>{{ thread.content }}</p>
+
+      <img *ngIf="thread.imageUrl"
+           [src]="thread.imageUrl"
+           alt="Thread Image"
+           style="max-width: 100%; margin-top: 10px; border-radius: 8px;" />
+
+           <button (click)="likeThread()">👍 Like ({{ thread.likes || 0 }})</button>
+           <button (click)="dislikeThread()">👎 Dislike ({{ thread.dislikes || 0 }})</button>
+      <button (click)="toggleCommentBox()">💬 Comment</button>
+
+      <div class="comment-box" *ngIf="showCommentBox">
+        <div class="comment" *ngFor="let comment of comments">
+          <strong>{{ comment.user }}</strong>
+          <span>{{ comment.text }}</span>
+        </div>
+
+        <textarea [(ngModel)]="newComment" placeholder="Write a comment..."></textarea>
+        <button (click)="addComment()">Post</button>
+      </div>
+    </div>
+  </div>
+</div>
+

@@ -1,0 +1,497 @@
+{
+  "users": [
+    {
+      "id": "1",
+      "username": "john",
+      "password": "john123",
+      "email": "john@example.com"
+    },
+    {
+      "id": "2",
+      "username": "emma",
+      "password": "emma456",
+      "email": "emma@example.com"
+    },
+    {
+      "id": "8dd1",
+      "username": "admin2",
+      "password": "123",
+      "email": "admin2@gmail.com"
+    },
+    {
+      "id": "890a",
+      "username": "mithun",
+      "password": "12345",
+      "email": "mith@gmail.com"
+    },
+    {
+      "id": "fc78",
+      "username": "Dharsh",
+      "password": "123456789",
+      "email": "dharshanashok@gmail.com"
+    },
+    {
+      "id": "d6fc",
+      "username": "user",
+      "password": "123456",
+      "email": "user@gmail.com"
+    }
+  ],
+  "threads": [
+    {
+      "id": "1",
+      "title": "Welcome to the Forum",
+      "content": "Introduce yourself here!",
+      "likes": 1,
+      "likedBy": [
+        "user123"
+      ]
+    },
+    {
+      "id": "2",
+      "title": "Angular 17 Tips",
+      "content": "Drop your favorite Angular tips.",
+      "dislikes": 1,
+      "dislikedBy": [
+        "user123"
+      ]
+    },
+    {
+      "id": "98f4",
+      "title": "Install Angular CLI",
+      "content": "npm install -g @angular/cli",
+      "dislikes": 1,
+      "dislikedBy": [
+        "user123"
+      ]
+    },
+    {
+      "id": "d9ae",
+      "title": "Create a new project",
+      "content": "ng new <project-name>",
+      "dislikes": 1,
+      "dislikedBy": [
+        "user123"
+      ]
+    },
+    {
+      "id": "5ed9",
+      "title": "ES5 and ES6",
+      "content": "",
+      "dislikes": 1,
+      "dislikedBy": [
+        "user123"
+      ]
+    },
+    {
+      "id": "5abf",
+      "title": "Clash of Clans Updates",
+      "content": "what's your opinion on new updates in coc",
+      "likes": 1,
+      "likedBy": [
+        "user123"
+      ]
+    },
+    {
+      "id": "3520",
+      "title": "free fire",
+      "content": "",
+      "likes": 1,
+      "likedBy": [
+        "user123"
+      ]
+    },
+    {
+      "id": "088a",
+      "title": "",
+      "content": "",
+      "dislikes": 1,
+      "dislikedBy": [
+        "user123"
+      ]
+    },
+    {
+      "id": "2492",
+      "title": "Panda's are crazy",
+      "content": "",
+      "likes": 1,
+      "likedBy": [
+        "user123"
+      ]
+    },
+    {
+      "id": "9d44",
+      "title": "cute little panda",
+      "content": "",
+      "likes": 0,
+      "dislikes": 1,
+      "comments": [],
+      "user": {
+        "username": "guest_user",
+        "profilePic": "https://i.pravatar.cc/100"
+      },
+      "dislikedBy": [
+        "user123"
+      ]
+    },
+    {
+      "id": "6706",
+      "title": "beware the bears",
+      "content": "",
+      "likes": 0,
+      "dislikes": 0,
+      "comments": [],
+      "user": {
+        "username": "guest_user",
+        "profilePic": "https://i.pravatar.cc/100"
+      }
+    },
+    {
+      "id": "604b",
+      "title": "",
+      "content": "",
+      "imageUrl": "",
+      "likes": 1,
+      "likedBy": [
+        "user123"
+      ]
+    },
+    {
+      "id": "d642",
+      "title": "go go go",
+      "content": "",
+      "imageUrl": ""
+    },
+    {
+      "id": "63a1",
+      "title": "",
+      "content": "dere",
+      "imageUrl": "",
+      "dislikes": 1,
+      "dislikedBy": [
+        "user123"
+      ]
+    },
+    {
+      "id": "709d",
+      "title": "hehehe",
+      "content": "",
+      "likes": 0,
+      "dislikes": 0,
+      "comments": [],
+      "user": {
+        "id": "fc78",
+        "username": "Dharsh",
+        "password": "123456789",
+        "email": "dharshanashok@gmail.com"
+      }
+    },
+    {
+      "id": "bc82",
+      "title": "ghjdsnfms",
+      "content": "",
+      "likes": 1,
+      "dislikes": 0,
+      "comments": [],
+      "user": {
+        "id": "fc78",
+        "username": "Dharsh",
+        "password": "123456789",
+        "email": "dharshanashok@gmail.com"
+      },
+      "likedBy": [
+        "user123"
+      ]
+    },
+    {
+      "id": "e734",
+      "title": "hi",
+      "content": "jo",
+      "imageUrl": "",
+      "likes": 1,
+      "likedBy": [
+        "user123"
+      ]
+    },
+    {
+      "id": "c2ad",
+      "title": "ji",
+      "content": "ji",
+      "imageUrl": "",
+      "dislikes": 1,
+      "dislikedBy": [
+        "user123"
+      ]
+    },
+    {
+      "id": "7985",
+      "title": "jij",
+      "content": "",
+      "likes": 0,
+      "dislikes": 0,
+      "comments": [],
+      "user": {
+        "id": "fc78",
+        "username": "Dharsh",
+        "password": "123456789",
+        "email": "dharshanashok@gmail.com"
+      }
+    },
+    {
+      "id": "8487",
+      "title": "hfsdjfksd",
+      "content": "",
+      "likes": 0,
+      "dislikes": 1,
+      "comments": [],
+      "user": {
+        "id": "fc78",
+        "username": "Dharsh",
+        "password": "123456789",
+        "email": "dharshanashok@gmail.com"
+      },
+      "dislikedBy": [
+        "user123"
+      ]
+    },
+    {
+      "id": "77d5",
+      "title": "hrtrrj",
+      "content": "",
+      "likes": 0,
+      "dislikes": 0,
+      "comments": [],
+      "user": {
+        "id": "fc78",
+        "username": "Dharsh",
+        "password": "123456789",
+        "email": "dharshanashok@gmail.com"
+      }
+    },
+    {
+      "id": "7a0e",
+      "title": "java",
+      "content": "java",
+      "imageUrl": "",
+      "dislikes": 1,
+      "dislikedBy": [
+        "user123"
+      ]
+    },
+    {
+      "id": "6be9",
+      "title": "jghjf",
+      "content": "",
+      "likes": 0,
+      "dislikes": 0,
+      "comments": [],
+      "user": {
+        "id": "fc78",
+        "username": "Dharsh",
+        "password": "123456789",
+        "email": "dharshanashok@gmail.com"
+      }
+    },
+    {
+      "id": "7829",
+      "title": "hiii",
+      "content": "",
+      "likes": 0,
+      "dislikes": 1,
+      "comments": [],
+      "user": {
+        "id": "fc78",
+        "username": "Dharsh",
+        "password": "123456789",
+        "email": "dharshanashok@gmail.com"
+      },
+      "dislikedBy": [
+        "user123"
+      ]
+    },
+    {
+      "id": "ff56",
+      "title": "kjhjj",
+      "content": "",
+      "likes": 1,
+      "dislikes": 0,
+      "comments": [],
+      "user": {
+        "id": "fc78",
+        "username": "Dharsh",
+        "password": "123456789",
+        "email": "dharshanashok@gmail.com"
+      },
+      "likedBy": [
+        "user123"
+      ]
+    },
+    {
+      "id": "eee5",
+      "title": "hello everyone",
+      "content": "",
+      "likes": 2,
+      "dislikes": 0,
+      "comments": [],
+      "user": {
+        "id": "8dd1",
+        "username": "admin2",
+        "password": "123",
+        "email": "admin2@gmail.com"
+      },
+      "likedBy": [
+        "user123"
+      ]
+    },
+    {
+      "id": "2cbe",
+      "title": "test",
+      "content": "",
+      "likes": 1,
+      "dislikes": 1,
+      "comments": [],
+      "user": {
+        "id": "fc78",
+        "username": "Dharsh",
+        "password": "123456789",
+        "email": "dharshanashok@gmail.com"
+      },
+      "likedBy": [
+        "user123"
+      ],
+      "dislikedBy": [
+        "Dharsh"
+      ]
+    },
+    {
+      "id": "7b0d",
+      "title": "test",
+      "content": "tetsing ",
+      "imageUrl": "",
+      "likes": 1,
+      "likedBy": [
+        "user123"
+      ]
+    },
+    {
+      "id": "c1e5",
+      "title": "jik",
+      "content": "",
+      "likes": 1,
+      "dislikes": 0,
+      "comments": [],
+      "user": {
+        "id": "fc78",
+        "username": "Dharsh",
+        "password": "123456789",
+        "email": "dharshanashok@gmail.com"
+      },
+      "likedBy": [
+        "user123"
+      ],
+      "dislikedBy": []
+    },
+    {
+      "id": "78f7",
+      "title": "",
+      "content": "",
+      "imageUrl": ""
+    }
+  ],
+  "user": {
+    "username": "john",
+    "profilePic": "https://i.pravatar.cc/100?u=john"
+  },
+  "comments": [
+    {
+      "id": "0569",
+      "threadId": "7b0d",
+      "user": "Dharsh",
+      "text": "hy everyone"
+    },
+    {
+      "id": "a0fe",
+      "threadId": "2cbe",
+      "user": "Anonymous",
+      "text": "hello bro"
+    },
+    {
+      "id": "8d1b",
+      "threadId": "c1e5",
+      "user": "Anonymous",
+      "text": "test"
+    },
+    {
+      "id": "f17e",
+      "threadId": "c1e5",
+      "user": "Anonymous",
+      "text": "test"
+    },
+    {
+      "id": "269d",
+      "threadId": "c1e5",
+      "user": "Anonymous",
+      "text": "trtert"
+    },
+    {
+      "id": "2884",
+      "threadId": "c1e5",
+      "user": "Anonymous",
+      "text": "ewrewre"
+    },
+    {
+      "id": "411d",
+      "threadId": "eee5",
+      "user": "Anonymous",
+      "text": "eewer"
+    },
+    {
+      "id": "09b9",
+      "threadId": "7a0e",
+      "user": "Anonymous",
+      "text": "wqewe"
+    },
+    {
+      "id": "794d",
+      "threadId": "9d44",
+      "user": "Anonymous",
+      "text": "ewrwerw"
+    },
+    {
+      "id": "1d5a",
+      "threadId": "d642",
+      "user": "Anonymous",
+      "text": "rewrwqe"
+    },
+    {
+      "id": "3221",
+      "threadId": "c1e5",
+      "user": "admin2",
+      "text": "erewr"
+    },
+    {
+      "id": "5180",
+      "threadId": "7b0d",
+      "user": "admin2",
+      "text": "rere"
+    },
+    {
+      "id": "2635",
+      "threadId": "2cbe",
+      "user": "admin2",
+      "text": "test"
+    },
+    {
+      "id": "e555",
+      "threadId": "c1e5",
+      "user": "user",
+      "text": "test"
+    },
+    {
+      "id": "7da1",
+      "threadId": "7b0d",
+      "user": "Dharsh",
+      "text": "hii"
+    }
+  ]
+}

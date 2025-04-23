@@ -1,0 +1,49 @@
+<div class="forum-container">
+  <!-- Top Left Title/Header -->
+  <div class="forum-header-top-left">
+    <h1 class="forum-title">Community Forum</h1>
+    <p class="subtitle">Browse, ask, and share ideas.</p>
+  </div>
+
+  <!-- Top Center Inputs in Form -->
+  <form #quickForm="ngForm" (ngSubmit)="postThread(quickForm)">
+    <div class="top-center-inputs">
+      <input
+        [(ngModel)]="searchTerm"
+        name="search"
+        placeholder="🔎 Search threads..."
+        class="search-input"
+      />
+
+      <input
+        [(ngModel)]="newThread.title"
+        name="title"
+        placeholder="Start a quick thread..."
+        required
+        minlength="3"
+        #titleRef="ngModel"
+        (input)="onTitleInputChange()"
+        [class.input-error]="showEmptyError"
+      />
+
+      <div *ngIf="showEmptyError" class="error-message">
+        Can't post empty thread.
+      </div>
+
+      <div class="btn-group">
+        <button type="submit">Post</button>
+        <button type="button" class="full-editor-btn" (click)="goToNewThread()">
+          Go to Full Editor
+        </button>
+      </div>
+    </div>
+  </form>
+
+  <!-- Thread List -->
+  <div class="scrollable-thread-list">
+    <app-thread-card
+      *ngFor="let thread of filteredThreads"
+      [thread]="thread"
+    ></app-thread-card>
+  </div>
+</div>
